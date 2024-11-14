@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample design by infant-Home decor and interior design</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Creating Beautiful Spaces<br>One Design at a Time</h1>     
+            <p>Welcome to HOME, your trusted partner in transforming spaces into beautiful, functional environments. <br> Our passion lies in designing spaces that reflect your unique style, bringing comfort and elegance to every corner. <br> From modern minimalism to timeless classic designs, we specialize in providing customized home décor solutions that suit your taste and lifestyle. <br> Our team of skilled designers and craftsmen work closely with you to create interiors that inspire, making your dream home a reality. <br> At HOME, we believe that every space has a story, and we are here to help tell yours.</p>
+            <a href="index.html" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+
+<section class="footer">
+    <h4>Support</h4>
+    <p>At HOME, we are dedicated to providing exceptional customer service to help you create the perfect space. <br> Whether you have questions about our products, need advice on design, or require assistance with an order, our friendly team is always here to help. <br> We're committed to ensuring that your experience with us is seamless and enjoyable. <br> Don't hesitate to reach out for any support you need — we're just a message away!</p>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+        <div class="icons">
+            <a href="https://www.instagram.com/j.e.g.a.n/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/j.e.g.a.n/"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/j.e.g.a.n/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.instagram.com/j.e.g.a.n/"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        <a href="https://www.instagram.com/j.e.g.a.n/" class="footer-link"><p>made with <i class="fa fa-heart"></i> by infant</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
